@@ -39,7 +39,7 @@ public class QuestionBankEntity extends BaseEntity {
     private String questionKey;
 
     @Builder.Default
-    @Column(name = "answer_choice", columnDefinition = "jsonb")
+    @Column(name = "answer_choices", columnDefinition = "jsonb")
     @Type(type = "jsonb")
     private List<AnswerInfo> answerChoices = new ArrayList<>();
 
