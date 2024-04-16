@@ -4,7 +4,7 @@
 - Transaction.
 - Adding **logic checking** for service function.
 - Loging, Loging aspect.
-- Redis caching
+- Caching
 - Interceptor for user and logging.
 - Validate api input (email, password pattern, ....)
 # Open api documentation capture:
