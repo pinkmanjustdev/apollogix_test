@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 @Component
 public class JwtUtil {
+    //FIXME: Moving variable to yaml file.
     private final String secret_key = "1fde6a19d89dace533dbc7aed6db1e7ea68875b080058337a0657a6d6298f830";
     private final long accessTokenValidity = 60 * 60 * 1000;
 
